@@ -1,10 +1,10 @@
 <?php
 
-namespace SheaXiang\LaravelVueAdmin\Controllers\Api\Admin;
+namespace SheaXiang\LaravelAdmin\Controllers\Api\Admin;
 
 
-use SheaXiang\LaravelVueAdmin\Models\Ad;
-use SheaXiang\LaravelVueAdmin\Traits\CrudTraits;
+use SheaXiang\LaravelAdmin\Models\Ad;
+use SheaXiang\LaravelAdmin\Traits\CrudTraits;
 
 class AdController extends BaseController
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace  SheaXiang\LaravelVueAdmin\Traits;
+namespace  SheaXiang\LaravelAdmin\Traits;
 
 use App\Models\Image;
 use Illuminate\Database\Eloquent\Model;

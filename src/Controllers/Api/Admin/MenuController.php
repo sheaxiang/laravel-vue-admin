@@ -1,9 +1,9 @@
 <?php
 
-namespace SheaXiang\LaravelVueAdmin\Controllers\Api\Admin;
+namespace SheaXiang\LaravelAdmin\Controllers\Api\Admin;
 
 use Illuminate\Http\Request;
-use SheaXiang\LaravelVueAdmin\Models\Menu;
+use SheaXiang\LaravelAdmin\Models\Menu;
 use Spatie\Permission\Models\Role;
 
 class MenuController extends BaseController

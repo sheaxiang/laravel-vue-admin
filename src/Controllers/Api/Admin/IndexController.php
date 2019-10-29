@@ -1,8 +1,8 @@
 <?php
 
-namespace SheaXiang\LaravelVueAdmin\Controllers\Api\Admin;
+namespace SheaXiang\LaravelAdmin\Controllers\Api\Admin;
 
-use SheaXiang\LaravelVueAdmin\Models\AdminUser;
+use SheaXiang\LaravelAdmin\Models\AdminUser;
 
 class IndexController extends BaseController
 {

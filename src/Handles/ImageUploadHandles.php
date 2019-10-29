@@ -1,5 +1,5 @@
 <?php
-namespace SheaXiang\LaravelVueAdmin\Handles;
+namespace SheaXiang\LaravelAdmin\Handles;
 
 use Intervention\Image\Image;
 

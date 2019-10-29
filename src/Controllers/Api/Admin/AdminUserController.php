@@ -1,11 +1,11 @@
 <?php
 
-namespace SheaXiang\LaravelVueAdmin\Controllers\Api\Admin;
+namespace SheaXiang\LaravelAdmin\Controllers\Api\Admin;
 
 use Illuminate\Http\Request;
-use SheaXiang\LaravelVueAdmin\Models\AdminUser;
-use SheaXiang\LaravelVueAdmin\Models\Image;
-use SheaXiang\LaravelVueAdmin\Requests\StoreAdminUser;
+use SheaXiang\LaravelAdmin\Models\AdminUser;
+use SheaXiang\LaravelAdmin\Models\Image;
+use SheaXiang\LaravelAdmin\Requests\StoreAdminUser;
 
 class AdminUserController extends BaseController
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace SheaXiang\LaravelVueAdmin\Controllers\Api\Admin;
+namespace SheaXiang\LaravelAdmin\Controllers\Api\Admin;
 
 use Illuminate\Http\Request;
-use SheaXiang\LaravelVueAdmin\Models\Article;
-use SheaXiang\LaravelVueAdmin\Models\Image;
+use SheaXiang\LaravelAdmin\Models\Article;
+use SheaXiang\LaravelAdmin\Models\Image;
 
 class ArticleController extends BaseController
 {

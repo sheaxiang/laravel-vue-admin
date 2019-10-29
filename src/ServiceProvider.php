@@ -1,6 +1,6 @@
 <?php
 
-namespace SheaXiang\LaravelVueAdmin;
+namespace SheaXiang\LaravelAdmin;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -31,7 +31,7 @@ class ServiceProvider extends LaravelServiceProvider
         $api = app('Dingo\Api\Routing\Router');
 
         $api->version('v1', function ($api) {
-            $api->group(['namespace' => 'SheaXiang\LaravelVueAdmin\Controllers\Api\Admin', 'prefix' => 'admin'], function ($api) {
+            $api->group(['namespace' => 'SheaXiang\LaravelAdmin\Controllers\Api\Admin', 'prefix' => 'admin'], function ($api) {
                 $api->post('/login', 'AuthController@login');
                 $api->post('/image/upload', 'ImageController@upload');
                 $api->post('/no_auth_image', 'ImageController@store');

@@ -1,11 +1,11 @@
 <?php
 
-namespace SheaXiang\LaravelVueAdmin\Controllers\Api\Admin;
+namespace SheaXiang\LaravelAdmin\Controllers\Api\Admin;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
-use SheaXiang\LaravelVueAdmin\Models\AdminUser;
-use SheaXiang\LaravelVueAdmin\Models\Menu;
+use SheaXiang\LaravelAdmin\Models\AdminUser;
+use SheaXiang\LaravelAdmin\Models\Menu;
 
 class AuthController extends BaseController
 {

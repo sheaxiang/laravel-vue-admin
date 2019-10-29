@@ -1,9 +1,9 @@
 <?php
 
-namespace SheaXiang\LaravelVueAdmin\Controllers\Api\Admin;
+namespace SheaXiang\LaravelAdmin\Controllers\Api\Admin;
 
 use Illuminate\Http\Request;
-use SheaXiang\LaravelVueAdmin\Requests\StorePermissions;
+use SheaXiang\LaravelAdmin\Requests\StorePermissions;
 use Spatie\Permission\Models\Permission;
 
 class PermissionController extends BaseController

@@ -1,4 +1,4 @@
-# laravel-vue-admin
+# laravel-admin
 
 ## Installation
 
@@ -6,7 +6,7 @@
 
 ## install
 
-- `composer require sheaxiang/laravel-vue-admin`
+- `composer require sheaxiang/laravel-admin`
 
 - `npm i`
 

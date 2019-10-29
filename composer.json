@@ -1,6 +1,6 @@
 {
-    "name": "sheaxiang/laravel-vue-admin",
-    "description": "laravel-vue-admin",
+    "name": "sheaxiang/laravel-admin",
+    "description": "laravel-admin",
     "authors": [
         {
             "name": "shea",
@@ -23,13 +23,13 @@
     "extra": {
         "laravel": {
             "providers": [
-                "SheaXiang\\LaravelVueAdmin\\ServiceProvider"
+                "SheaXiang\\LaravelAdmin\\ServiceProvider"
             ]
         }
     },
     "autoload": {
         "psr-4": {
-            "SheaXiang\\LaravelVueAdmin\\": "src/"
+            "SheaXiang\\LaravelAdmin\\": "src/"
         }
     }
 }

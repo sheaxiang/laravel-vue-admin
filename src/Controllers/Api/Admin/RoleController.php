@@ -1,10 +1,10 @@
 <?php
 
-namespace SheaXiang\LaravelVueAdmin\Controllers\Api\Admin;
+namespace SheaXiang\LaravelAdmin\Controllers\Api\Admin;
 
 use App\Models\Role;
 use Illuminate\Http\Request;
-use SheaXiang\LaravelVueAdmin\Requests\StoreRole;
+use SheaXiang\LaravelAdmin\Requests\StoreRole;
 
 class RoleController extends BaseController
 {

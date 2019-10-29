@@ -1,6 +1,6 @@
 <?php
 
-namespace SheaXiang\LaravelVueAdmin\Requests;
+namespace SheaXiang\LaravelAdmin\Requests;
 
 class StorePermissions extends ApiRequest
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace SheaXiang\LaravelVueAdmin\Models;
+namespace SheaXiang\LaravelAdmin\Models;
 
 class Ad extends BaseModel
 {
