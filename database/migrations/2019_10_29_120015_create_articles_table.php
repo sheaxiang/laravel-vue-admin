@@ -21,7 +21,7 @@ class CreateArticlesTable extends Migration {
 			$table->integer('view_number')->nullable();
 			$table->dateTime('release_date')->nullable()->comment('发布日期');
 			$table->string('link')->nullable()->comment('外链');
-			$table->text('content')->nullable();
+			$table->longText('content')->nullable();
 			$table->timestamps();
 			$table->boolean('is_index')->nullable()->default(0)->comment('是否在首页,1:是,2否');
 			$table->string('introduction', 500)->nullable();

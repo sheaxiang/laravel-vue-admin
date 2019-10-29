@@ -2,7 +2,10 @@
 
 namespace SheaXiang\LaravelVueAdmin;
 
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
 
 class ServiceProvider extends LaravelServiceProvider
@@ -17,7 +20,7 @@ class ServiceProvider extends LaravelServiceProvider
 
         $this->publishes([
             __DIR__.'/../database/seeds/' => database_path('seeds')
-        ], 'seeds');
+        ], 'shea_admin_seeds');
     }
 
     /**

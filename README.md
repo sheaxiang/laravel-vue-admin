@@ -31,7 +31,7 @@
 
 - 发布后台数据库文件
 
-    `php artisan vendor:publish --tag=migrations`
+    `php artisan vendor:publish --tag=shea_admin_seeds`
 
 - 运行数据库表结构迁移
 
@@ -39,7 +39,7 @@
 
 - 运行数据库数据填充,注意!这一步将删除原有数据,请谨慎操作
 
-    `php artisan make:seeder DatabaseSeeder`
+    `php artisan db:seed --class=SheaAdminDatabaseSeeder`
 
 - auth.php
 
