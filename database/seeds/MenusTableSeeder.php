@@ -137,26 +137,6 @@ class MenusTableSeeder extends Seeder
                 'order' => 1,
                 'parameter' => NULL,
             ),
-            6 =>
-            array (
-                'id' => 13,
-                '_lft' => 8,
-                '_rgt' => 9,
-                'parent_id' => 5,
-                'created_at' => '2019-03-12 11:18:57',
-                'updated_at' => '2019-03-20 13:27:44',
-                'path' => 'site',
-                'redirect' => '',
-                'alwaysShow' => 0,
-                'name' => '站点设置',
-                'meta' => '{"title":"\\u7ad9\\u70b9\\u8bbe\\u7f6e","icon":null,"noCache":false,"roles":["user"]}',
-                'component' => 'site',
-                'remark' => '',
-                'hidden' => 0,
-                'props' => 1,
-                'order' => 1,
-                'parameter' => NULL,
-            ),
             7 =>
             array (
                 'id' => 14,

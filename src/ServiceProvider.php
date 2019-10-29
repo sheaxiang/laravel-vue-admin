@@ -83,11 +83,6 @@ class ServiceProvider extends LaravelServiceProvider
                     $api->resource('admin_user', 'AdminUserController');//管理员
                     $api->get('/column/list', 'ColumnController@default_list');
                     $api->resource('column', 'ColumnController');//栏目
-
-                    $api->group(['prefix' => 'setting'], function ($api) {
-                        $api->get('/', 'SettingController@index');
-                        $api->put('/', 'SettingController@update');
-                    });
                 });
             });
 
