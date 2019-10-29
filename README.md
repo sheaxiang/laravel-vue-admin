@@ -111,6 +111,48 @@
 
 ## use
 
+前端暴露接口
+
+- app
+
+```
+run 运行实例
+vue vue实例
+```
+
+- router
+
+```$xslt
+addRouters 添加路由,比如:addRouters({files:require('@/views/files/index'),});
+```
+
+- utils
+
+```$xslt
+request 请求方法,基于axios,比如:
+
+request({
+    url: '/url',
+    params: query
+})
+
+request({
+    url: '/url',
+    method: 'post',
+    data: from
+})
+```
+
+- components
+
+```$xslt
+Pagination 分页组件
+BackToTop 返回顶部
+DragSelect 拖拽
+ErrorLog 错误日志
+Tinymce 编辑器
+```
+
 
 
 
