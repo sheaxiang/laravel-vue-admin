@@ -24,6 +24,8 @@
 
 - `composer update`
 
+- `php artisan jwt:secret`
+
 - 发布dingo/api包配置文件
 
     `php artisan vendor:publish --provider="Dingo\Api\Provider\LaravelServiceProvider"`
