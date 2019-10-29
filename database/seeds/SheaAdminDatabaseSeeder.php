@@ -13,9 +13,9 @@ class SheaAdminDatabaseSeeder extends Seeder
     {
         // $this->call(UsersTableSeeder::class);
         $this->call(SettingsTableSeeder::class);
-        $this->call(RoleHasPermissionsTableSeeder::class);
-        $this->call(RolesTableSeeder::class);
         $this->call(PermissionsTableSeeder::class);
+        $this->call(RolesTableSeeder::class);
+        $this->call(RoleHasPermissionsTableSeeder::class);
         $this->call(ModelHasRolesTableSeeder::class);
         $this->call(ModelHasPermissionsTableSeeder::class);
         $this->call(MenusTableSeeder::class);

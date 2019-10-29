@@ -36,6 +36,8 @@
 - 运行数据库表结构迁移
 
     `php artisan migrate`
+    
+- `composer dump-autoload`
 
 - 运行数据库数据填充,注意!这一步将删除原有数据,请谨慎操作
 
