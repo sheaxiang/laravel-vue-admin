@@ -20,6 +20,13 @@
     "require-dev": {
         "phpunit/phpunit": "^7.0"
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SheaXiang\\LaravelVueAdmin\\ServiceProvider"
+            ]
+        }
+    },
     "autoload": {
         "psr-4": {
             "SheaXiang\\LaravelVueAdmin\\": "src/"
