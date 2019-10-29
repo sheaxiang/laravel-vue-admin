@@ -41,11 +41,11 @@ class Article extends BaseModel
 
     public function image()
     {
-        return $this->hasone('App\Models\Image','master_id','id')->where('type', 'article')->orderBy('created_at', 'desc');
+        return $this->hasone('SheaXiang\LaravelAdmin\Models\Image','master_id','id')->where('type', 'article')->orderBy('created_at', 'desc');
     }
 
     public function column()
     {
-        return $this->belongsTo('App\Models\Column');
+        return $this->belongsTo('SheaXiang\LaravelAdmin\Models\Column');
     }
 }

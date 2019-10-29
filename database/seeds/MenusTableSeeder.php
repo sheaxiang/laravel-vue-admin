@@ -12,12 +12,12 @@ class MenusTableSeeder extends Seeder
      */
     public function run()
     {
-        
+
 
         \DB::table('menus')->delete();
-        
+
         \DB::table('menus')->insert(array (
-            0 => 
+            0 =>
             array (
                 'id' => 5,
                 '_lft' => 5,
@@ -37,7 +37,7 @@ class MenusTableSeeder extends Seeder
                 'order' => 1,
                 'parameter' => NULL,
             ),
-            1 => 
+            1 =>
             array (
                 'id' => 6,
                 '_lft' => 6,
@@ -57,7 +57,7 @@ class MenusTableSeeder extends Seeder
                 'order' => 1,
                 'parameter' => NULL,
             ),
-            2 => 
+            2 =>
             array (
                 'id' => 7,
                 '_lft' => 15,
@@ -77,7 +77,7 @@ class MenusTableSeeder extends Seeder
                 'order' => 1,
                 'parameter' => NULL,
             ),
-            3 => 
+            3 =>
             array (
                 'id' => 8,
                 '_lft' => 16,
@@ -97,7 +97,7 @@ class MenusTableSeeder extends Seeder
                 'order' => 1,
                 'parameter' => NULL,
             ),
-            4 => 
+            4 =>
             array (
                 'id' => 9,
                 '_lft' => 18,
@@ -117,7 +117,7 @@ class MenusTableSeeder extends Seeder
                 'order' => 1,
                 'parameter' => NULL,
             ),
-            5 => 
+            5 =>
             array (
                 'id' => 10,
                 '_lft' => 20,
@@ -137,7 +137,7 @@ class MenusTableSeeder extends Seeder
                 'order' => 1,
                 'parameter' => NULL,
             ),
-            6 => 
+            6 =>
             array (
                 'id' => 13,
                 '_lft' => 8,
@@ -157,7 +157,7 @@ class MenusTableSeeder extends Seeder
                 'order' => 1,
                 'parameter' => NULL,
             ),
-            7 => 
+            7 =>
             array (
                 'id' => 14,
                 '_lft' => 23,
@@ -177,7 +177,7 @@ class MenusTableSeeder extends Seeder
                 'order' => 2,
                 'parameter' => NULL,
             ),
-            8 => 
+            8 =>
             array (
                 'id' => 15,
                 '_lft' => 24,
@@ -190,14 +190,14 @@ class MenusTableSeeder extends Seeder
                 'alwaysShow' => 0,
                 'name' => '栏目列表',
                 'meta' => '{"title":"\\u680f\\u76ee\\u5217\\u8868","icon":null,"noCache":false,"roles":[]}',
-                'component' => 'eventType',
+                'component' => 'column',
                 'remark' => NULL,
                 'hidden' => 0,
                 'props' => 1,
                 'order' => 1,
                 'parameter' => NULL,
             ),
-            9 => 
+            9 =>
             array (
                 'id' => 16,
                 '_lft' => 26,
@@ -217,7 +217,7 @@ class MenusTableSeeder extends Seeder
                 'order' => 1,
                 'parameter' => NULL,
             ),
-            10 => 
+            10 =>
             array (
                 'id' => 17,
                 '_lft' => 28,
@@ -237,7 +237,7 @@ class MenusTableSeeder extends Seeder
                 'order' => 1,
                 'parameter' => NULL,
             ),
-            11 => 
+            11 =>
             array (
                 'id' => 18,
                 '_lft' => 31,
@@ -257,7 +257,7 @@ class MenusTableSeeder extends Seeder
                 'order' => 1,
                 'parameter' => NULL,
             ),
-            12 => 
+            12 =>
             array (
                 'id' => 19,
                 '_lft' => 32,
@@ -277,7 +277,7 @@ class MenusTableSeeder extends Seeder
                 'order' => 1,
                 'parameter' => NULL,
             ),
-            13 => 
+            13 =>
             array (
                 'id' => 20,
                 '_lft' => 34,
@@ -297,7 +297,7 @@ class MenusTableSeeder extends Seeder
                 'order' => 2,
                 'parameter' => NULL,
             ),
-            14 => 
+            14 =>
             array (
                 'id' => 21,
                 '_lft' => 37,
@@ -317,7 +317,7 @@ class MenusTableSeeder extends Seeder
                 'order' => 1,
                 'parameter' => NULL,
             ),
-            15 => 
+            15 =>
             array (
                 'id' => 22,
                 '_lft' => 38,
@@ -337,7 +337,7 @@ class MenusTableSeeder extends Seeder
                 'order' => 1,
                 'parameter' => NULL,
             ),
-            16 => 
+            16 =>
             array (
                 'id' => 23,
                 '_lft' => 40,
@@ -357,7 +357,7 @@ class MenusTableSeeder extends Seeder
                 'order' => 1,
                 'parameter' => NULL,
             ),
-            17 => 
+            17 =>
             array (
                 'id' => 24,
                 '_lft' => 42,
@@ -377,7 +377,7 @@ class MenusTableSeeder extends Seeder
                 'order' => 1,
                 'parameter' => NULL,
             ),
-            18 => 
+            18 =>
             array (
                 'id' => 48,
                 '_lft' => 12,
@@ -392,13 +392,13 @@ class MenusTableSeeder extends Seeder
                 'meta' => '{"title":"\\u6587\\u4ef6\\u7ba1\\u7406","icon":null,"noCache":false,"roles":[]}',
                 'component' => 'files',
                 'remark' => NULL,
-                'hidden' => 0,
+                'hidden' => 1,
                 'props' => 1,
                 'order' => 1,
                 'parameter' => NULL,
             ),
         ));
-        
-        
+
+
     }
 }

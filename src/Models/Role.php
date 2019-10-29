@@ -8,6 +8,6 @@ class Role extends \Spatie\Permission\Models\Role
 {
     public function menus(): BelongsToMany
     {
-        return $this->belongsToMany('App\Models\Menu');
+        return $this->belongsToMany('SheaXiang\LaravelAdmin\Models\Menu');
     }
 }

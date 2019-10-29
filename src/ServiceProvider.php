@@ -18,9 +18,15 @@ class ServiceProvider extends LaravelServiceProvider
         $this->loadViewsFrom(__DIR__ . '/resources/views', 'vueAdmin');
         $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
 
+        //数据填充
         $this->publishes([
             __DIR__.'/../database/seeds/' => database_path('seeds')
-        ], 'shea_admin_seeds');
+        ], 'shea_laravel_admin');
+
+
+        $this->publishes([
+            __DIR__.'/public' => public_path()
+        ], 'shea_laravel_admin');
     }
 
     /**

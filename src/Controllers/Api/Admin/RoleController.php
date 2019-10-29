@@ -2,8 +2,8 @@
 
 namespace SheaXiang\LaravelAdmin\Controllers\Api\Admin;
 
-use App\Models\Role;
 use Illuminate\Http\Request;
+use SheaXiang\LaravelAdmin\Models\Role;
 use SheaXiang\LaravelAdmin\Requests\StoreRole;
 
 class RoleController extends BaseController

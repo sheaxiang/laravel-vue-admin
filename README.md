@@ -15,6 +15,7 @@
 - 在composer.json添加
     ```
     "dingo/api": "^2.3",
+    "kalnoy/nestedset": "^4.3",
     "intervention/image": "^2.4",
     "sheaxiang/laravel-function-helper": "^1.2",
     "spatie/laravel-permission": "^2.25",
@@ -27,11 +28,21 @@
 
     `php artisan vendor:publish --provider="Dingo\Api\Provider\LaravelServiceProvider"`
     
+- 在.env文件中添加
+    ```
+    #Dingo Api
+    API_STANDARDS_TREE=prs
+    API_SUBTYPE=shea
+    API_PREFIX=api
+    API_VERSION=v1
+    API_DEBUG=true
+    ```
+    
 - 配置数据库
 
-- 发布后台数据库文件
+- 发布文件
 
-    `php artisan vendor:publish --tag=shea_admin_seeds`
+    `php artisan vendor:publish --tag=shea_laravel_admin`
 
 - 运行数据库表结构迁移
 
@@ -42,6 +53,9 @@
 - 运行数据库数据填充,注意!这一步将删除原有数据,请谨慎操作
 
     `php artisan db:seed --class=SheaAdminDatabaseSeeder`
+    
+- .env
+    
 
 - auth.php
 
@@ -86,6 +100,8 @@
     shea.app.run();
     
     ```
+  
+- `npm run dev`
 
 - 运行命令并访问/admin
 

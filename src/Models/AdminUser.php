@@ -45,6 +45,6 @@ class AdminUser extends Authenticatable implements JWTSubject
 
 	public function image()
 	{
-		return $this->hasone('App\Models\Image','master_id','id')->where('type', 'avatar');
+		return $this->hasone('SheaXiang\LaravelAdmin\Models\Image','master_id','id')->where('type', 'avatar');
 	}
 }

@@ -22,7 +22,7 @@ class SettingsTableSeeder extends Seeder
                 'id' => 1,
                 'name' => '网站名称',
                 'setting_key' => 'site_name',
-                'value' => '体育',
+                'value' => '',
                 'created_at' => NULL,
                 'updated_at' => '2019-08-07 16:32:47',
                 'input_type' => 'text',
