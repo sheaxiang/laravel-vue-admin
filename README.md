@@ -57,7 +57,7 @@
         //...other
         'admin' => [
             'driver' => 'eloquent',
-            'model' => SheaXiang\LaravelVueAdmin\Models\AdminUser::class,
+            'model' => SheaXiang\LaravelAdmin\Models\AdminUser::class,
         ],
     ],
     ```
